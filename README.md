@@ -58,24 +58,6 @@ pip install kagglehub
 pip install jupyter
 ```
 
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd CV_Project
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the Jupyter notebook:
-```bash
-jupyter notebook CV_Project.ipynb
-```
-
 ## 📝 Key Features
 
 ### 1. Harris Corner Detector
@@ -330,6 +312,7 @@ This project is part of an academic course. Please use responsibly and provide a
 ---
 
 **Last Updated**: December 2025
+
 
 
 
