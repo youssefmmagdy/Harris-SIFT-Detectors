@@ -163,8 +163,8 @@ jupyter notebook CV_Project.ipynb
 ### Keypoint Detection Comparison
 
 The project generates bar charts comparing the number of keypoints detected by Harris vs SIFT across the dataset images.
+<img width="1189" height="690" alt="13" src="https://github.com/user-attachments/assets/df267c75-48d1-48ba-855f-621a933aa4ce" />
 
-<img width="1451" height="574" alt="14" src="https://github.com/user-attachments/assets/cb4bb00a-ed02-4e9f-a558-5e07aced12a4" />
 
 
 ### Robustness Analysis
@@ -181,62 +181,79 @@ The project evaluates both detectors under various transformations:
 #### Harris Corner Detector - Transformation Results:
 
 **Original Image**
-<img width="1451" height="574" alt="15" src="https://github.com/user-attachments/assets/da55fbaa-9b96-425e-970c-5bf29dcbe809" />
+<img width="1451" height="574" alt="14" src="https://github.com/user-attachments/assets/cb4bb00a-ed02-4e9f-a558-5e07aced12a4" />
 
 
 **Scaled 50%**
-<img width="1451" height="574" alt="16" src="https://github.com/user-attachments/assets/45201202-186b-4127-851d-bb3df6fdd788" />
+<img width="1451" height="574" alt="15" src="https://github.com/user-attachments/assets/da55fbaa-9b96-425e-970c-5bf29dcbe809" />
 
 
 **Scaled 150%**
-![Harris - Scaled 150% (955133 keypoints)](docs/images/figure_16.png)
+<img width="1451" height="574" alt="16" src="https://github.com/user-attachments/assets/45201202-186b-4127-851d-bb3df6fdd788" />
+
 
 **Rotated 30°**
-![Harris - Rotated 30° (452630 keypoints)](docs/images/figure_17.png)
+<img width="1451" height="574" alt="17" src="https://github.com/user-attachments/assets/b1b6a036-a426-46be-9744-9fae9bec68f8" />
+
 
 **Rotated 90°**
-![Harris - Rotated 90° (352827 keypoints)](docs/images/figure_18.png)
+
+<img width="1451" height="574" alt="18" src="https://github.com/user-attachments/assets/0fa79d6e-d108-453c-96f5-c6b75033a376" />
 
 **Brighter (alpha=1.5, beta=30)**
-![Harris - Brighter (296138 keypoints)](docs/images/figure_19.png)
+<img width="1451" height="574" alt="20" src="https://github.com/user-attachments/assets/709e0850-7f5d-4a2a-9e16-d9485a9c8ab9" />
+
+
 
 **Darker (alpha=0.7, beta=-20)**
-![Harris - Darker (584559 keypoints)](docs/images/figure_20.png)
+<img width="1451" height="574" alt="21" src="https://github.com/user-attachments/assets/dcfd69d9-f5c8-4ab2-98a3-d46267835efb" />
+
 
 **Blurred (kernel=7x7)**
-![Harris - Blurred (362197 keypoints)](docs/images/figure_21.png)
+<img width="1451" height="574" alt="22" src="https://github.com/user-attachments/assets/a055cacd-9645-4a56-ba41-c630cff9cdfe" />
+
 
 **Noisy (std_dev=30)**
-![Harris - Noisy (496073 keypoints)](docs/images/figure_22.png)
+<img width="1451" height="574" alt="23" src="https://github.com/user-attachments/assets/339e4ec6-3884-424b-9c3e-70316da817c2" />
+
 
 #### SIFT - Transformation Results:
 
 **Original Image**
-![SIFT - Original (6624 keypoints)](docs/images/figure_23.png)
+<img width="1875" height="765" alt="24" src="https://github.com/user-attachments/assets/9cd05d41-0989-450f-8da1-ca0881d6c2ad" />
+
 
 **Scaled 50%**
-![SIFT - Scaled 50% (2333 keypoints)](docs/images/figure_24.png)
+<img width="1868" height="765" alt="25" src="https://github.com/user-attachments/assets/6555356a-f98d-4a38-9cc5-46ffd28e6a92" />
+
 
 **Scaled 150%**
-![SIFT - Scaled 150% (9952 keypoints)](docs/images/figure_25.png)
+<img width="1875" height="765" alt="26" src="https://github.com/user-attachments/assets/4ef887b7-26b8-4edd-8c11-5440afd1cf0b" />
+
 
 **Rotated 30°**
-![SIFT - Rotated 30° (6333 keypoints)](docs/images/figure_26.png)
+<img width="1875" height="765" alt="27" src="https://github.com/user-attachments/assets/ab961575-8178-4c05-905b-3289f8232a76" />
+
 
 **Rotated 90°**
-![SIFT - Rotated 90° (5076 keypoints)](docs/images/figure_27.png)
+<img width="1875" height="765" alt="28" src="https://github.com/user-attachments/assets/9b0e6ec1-0171-4bb3-bb3f-2d415df32491" />
+
 
 **Brighter (alpha=1.5, beta=30)**
-![SIFT - Brighter (8472 keypoints)](docs/images/figure_28.png)
+<img width="1875" height="765" alt="29" src="https://github.com/user-attachments/assets/4ef72041-bc38-4f8e-a0b3-30d613553036" />
+
+
 
 **Darker (alpha=0.7, beta=-20)**
-![SIFT - Darker (3738 keypoints)](docs/images/figure_29.png)
+<img width="1875" height="765" alt="30" src="https://github.com/user-attachments/assets/19987f93-e6c7-43f9-ba76-72ee2854c3b4" />
+
 
 **Blurred (kernel=7x7)**
-![SIFT - Blurred (2306 keypoints)](docs/images/figure_30.png)
+<img width="1875" height="765" alt="31" src="https://github.com/user-attachments/assets/0188db17-c409-4e1f-a0b9-d1b4a2a87668" />
+
 
 **Noisy (std_dev=30)**
-![SIFT - Noisy (8657 keypoints)](docs/images/figure_31.png)
+<img width="1875" height="765" alt="32" src="https://github.com/user-attachments/assets/e4cf9cc1-f7d4-47e2-a080-4d19132d6334" />
 
 ## 💡 Key Insights
 
@@ -313,6 +330,7 @@ This project is part of an academic course. Please use responsibly and provide a
 ---
 
 **Last Updated**: December 2025
+
 
 
 
