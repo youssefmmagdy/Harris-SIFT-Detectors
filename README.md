@@ -135,13 +135,16 @@ jupyter notebook CV_Project.ipynb
 
 #### SIFT Keypoint Detection
 
-![SIFT Keypoints - Building 1](docs/images/figure_10.png)
+<img width="994" height="762" alt="10" src="https://github.com/user-attachments/assets/778fc378-c10d-4184-954b-89607e25267a" />
 
-![SIFT Keypoints - Building 2](docs/images/figure_11.png)
+
+<img width="681" height="990" alt="11" src="https://github.com/user-attachments/assets/e94ced20-f74b-495d-a707-d5c992f7fd99" />
+
 
 #### SIFT Feature Matching
 
-![SIFT Feature Matches between Building 1 and Building 2](docs/images/figure_12.png)
+<img width="1304" height="813" alt="12" src="https://github.com/user-attachments/assets/06ad83f9-b2dd-4026-8143-1c7459c3a363" />
+
 
 **Strengths:**
 - Scale-invariant
@@ -161,7 +164,8 @@ jupyter notebook CV_Project.ipynb
 
 The project generates bar charts comparing the number of keypoints detected by Harris vs SIFT across the dataset images.
 
-![Harris vs SIFT Keypoint Comparison](docs/images/figure_13.png)
+<img width="1451" height="574" alt="14" src="https://github.com/user-attachments/assets/cb4bb00a-ed02-4e9f-a558-5e07aced12a4" />
+
 
 ### Robustness Analysis
 
@@ -177,10 +181,12 @@ The project evaluates both detectors under various transformations:
 #### Harris Corner Detector - Transformation Results:
 
 **Original Image**
-![Harris - Original (494112 keypoints)](docs/images/figure_14.png)
+<img width="1451" height="574" alt="15" src="https://github.com/user-attachments/assets/da55fbaa-9b96-425e-970c-5bf29dcbe809" />
+
 
 **Scaled 50%**
-![Harris - Scaled 50% (138730 keypoints)](docs/images/figure_15.png)
+<img width="1451" height="574" alt="16" src="https://github.com/user-attachments/assets/45201202-186b-4127-851d-bb3df6fdd788" />
+
 
 **Scaled 150%**
 ![Harris - Scaled 150% (955133 keypoints)](docs/images/figure_16.png)
@@ -307,6 +313,7 @@ This project is part of an academic course. Please use responsibly and provide a
 ---
 
 **Last Updated**: December 2025
+
 
 
 
