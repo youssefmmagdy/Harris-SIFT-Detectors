@@ -32,7 +32,8 @@ The project includes implementation, performance evaluation, and robustness anal
 
 The project uses the [Google Image Recognition Tutorial](https://www.kaggle.com/datasets/wesamelshamy/google-image-recognition-tutorial) dataset from Kaggle, containing various images suitable for feature detection analysis.
 
-![Dataset Images](docs/images/figure_01.png)
+<img width="1490" height="459" alt="1" src="https://github.com/user-attachments/assets/73b0adca-783c-4aac-8a28-aae13e04b685" />
+
 
 ## 📁 Project Structure
 
@@ -90,12 +91,13 @@ jupyter notebook CV_Project.ipynb
 - `threshold = 0.5` (corner response threshold)
 
 #### Harris Corner Response Maps
-![Harris Corner Responses](docs/images/figure_02.png)
+<img width="1005" height="739" alt="2" src="https://github.com/user-attachments/assets/970afdd9-e42f-4893-9d6e-463f55939845" />
+
 
 #### Thresholded Responses
-![Thresholded Harris Edge Responses](docs/images/figure_03.png)
+<img width="1926" height="788" alt="3" src="https://github.com/user-attachments/assets/2afa86a2-59e0-4429-91ed-da1a67f0c959" />
 
-![Thresholded Harris Corner Responses](docs/images/figure_04.png)
+<img width="1926" height="788" alt="4" src="https://github.com/user-attachments/assets/79903a98-22cc-4358-8b0e-7cc0c7d82268" />
 
 **Strengths:**
 - Fast computation
@@ -300,4 +302,5 @@ This project is part of an academic course. Please use responsibly and provide a
 ---
 
 **Last Updated**: December 2025
+
 
