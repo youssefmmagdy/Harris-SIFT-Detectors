@@ -118,15 +118,20 @@ jupyter notebook CV_Project.ipynb
 
 #### Gradient Analysis
 
-![Gradient Analysis - Image 1](docs/images/figure_05.png)
+<img width="1446" height="393" alt="5" src="https://github.com/user-attachments/assets/15212c28-c205-4e01-9eef-3fdc24139cd4" />
 
-![Gradient Analysis - Image 2](docs/images/figure_06.png)
 
-![Gradient Analysis - Image 3](docs/images/figure_07.png)
+<img width="1446" height="393" alt="6" src="https://github.com/user-attachments/assets/7c456dff-8667-4b5f-a220-ed13b7bdf922" />
 
-![Gradient Analysis - Image 4](docs/images/figure_08.png)
 
-![Gradient Analysis - Image 5](docs/images/figure_09.png)
+<img width="1446" height="393" alt="7" src="https://github.com/user-attachments/assets/0e41b21c-5b60-445b-ad87-795149a10c34" />
+
+
+<img width="1446" height="393" alt="8" src="https://github.com/user-attachments/assets/555eedd6-3200-47ae-ae14-3384802203f1" />
+
+
+<img width="1446" height="393" alt="8" src="https://github.com/user-attachments/assets/942e6222-bd79-45a3-bab2-345b2b20afa2" />
+
 
 #### SIFT Keypoint Detection
 
@@ -302,5 +307,6 @@ This project is part of an academic course. Please use responsibly and provide a
 ---
 
 **Last Updated**: December 2025
+
 
 
